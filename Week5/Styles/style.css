@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .semester, .courses-list {
+    width: 45%;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .course {
+    margin: 5px;
+    padding: 10px;
+    background-color: #e1e1e1;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .dragging {
+    opacity: 0.5;
+  }
+  .semester div, .courses-list div {
+    margin-bottom: 10px;
+  }
